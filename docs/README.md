@@ -456,6 +456,10 @@ Distribution of code lengths by symbols for the SARS-CoV-2.fasta and Informació
 Distribution of code lengths by symbols for the texto-corto.txt and short-text.txt datasets
 </p>
 
+## Huffman Decoding and visualization
+Due to the observations in the previous section, it is notable that there are lengths of codes that are not the shortest that contain more compressed information, it is for this reason that a new approach is proposed to order the huffman table based on the amount of compressed information descending and not ascending by code lengths, the final results are discussed later. The decompression behavior will only be shown for some relevant datasets where the improvement is meaningful.
+
+
 
 # Code
 You can see the code of the whole project here: <a href="https://github.com/Wittline/Huffman-decoding/tree/master/Code" target="_blank">Code</a>
