@@ -186,6 +186,10 @@ For the previous data set, decoding the 24 symbols of the compressed bitstream p
 Another approach to sequential decoding is to take into account the lengths of the code as a fixed general reference pattern that helps us reduce the number of attempts, the huffman table was modified with the lengths of each code and is shown below
 </p>
 
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/thflc.png" />
+</p>
+
 <p align="justify">
 The central idea of this approach is to make cuts on the compressed bit string of size m, where m is an element that belongs to the set Lm, and Lm is the set of all the lengths found, for the previous case the set Lm is { 2, 3}, and its cardinality is 2, we will call the cardinality | Lm |, therefore, in the worst case, decoding each symbol involves trying | Lm | - 1 times, in order to achieve the best performance of this technique, the code lengths must be ordered from smallest to largest, because shorter length codes have a higher probability of occurrence, ascending order will definitely reduce the number of attempts response time in decompression.
 </p>
