@@ -66,7 +66,7 @@ On the other hand, it is relevant to mention that Hadoop is one of the most famo
   <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/hadoop_codecs.png" />
 </p>
 
-
+## Static Huffman coding
 
 # Code
 You can see the code of the whole project here: <a href="https://github.com/Wittline/Huffman-decoding/tree/master/Code" target="_blank">Code</a>
