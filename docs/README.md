@@ -237,7 +237,15 @@ class length_code_decoding:
 ```
 
 ### Decoding based on Huffman Tree Reconstruction
+<p align="justify">
+This decompression technique is not recommended, because the tree traversal is bit by bit, the number of instructions that are executed end up giving the same results of the first approach, in addition to this, the construction of the tree from the table Huffman creates another unnecessary cost by affecting decompression times.
+</p>
+
 ### Decoding with Markov Chains
+
+<p align="justify">
+The different lengths of the generated codes can be seen as a sequence of events that follow a stochastic process, there are always different lengths of codes, which can represent the states, each length is associated with a probability, and there is memory loss, the reading a future code length only depends on the previous reading. Due to these very clear properties, decompression based on a Markov chain does not sound out of place, and it is a lossless decompression approach, however, using a Markov chain demands storage to store the transitions matrix  and this puts the compression rate achieved at risk.
+</p>
 
 
 
