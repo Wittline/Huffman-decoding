@@ -592,6 +592,29 @@ Failure distribution and probability density
 </p>
 
 
+# Conclusions
+<p align="justify">
+In almost all cases it can be seen that sorting the huffman table by the code lengths containing the most compressed bytes is a better sequential decoding option based on code lengths. The following graphs show the results for each group of files with similar sizes, the decision to separate the graphs into different groups was to keep the Y axis in the same bounds, the decoding technique based on Markov chains was removed since it presents the worst times of decoding in all cases. 
+</p>
+
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/result1.png" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/result2.png" />
+</p>
+
+
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/result3.png" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/result4.png" />
+</p>
+
+
 
 
 
