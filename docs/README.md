@@ -194,6 +194,45 @@ Another approach to sequential decoding is to take into account the lengths of t
 The central idea of this approach is to make cuts on the compressed bit string of size m, where m is an element that belongs to the set Lm, and Lm is the set of all the lengths found, for the previous case the set Lm is { 2, 3}, and its cardinality is 2, we will call the cardinality | Lm |, therefore, in the worst case, decoding each symbol involves trying | Lm | - 1 times, in order to achieve the best performance of this technique, the code lengths must be ordered from smallest to largest, because shorter length codes have a higher probability of occurrence, ascending order will definitely reduce the number of attempts response time in decompression.
 </p>
 
+<p align="center">
+  <strong>
+    ABCDBEFBA.....
+   </strong>
+</p>
+
+<p align="center">
+  <strong>
+    1000110010000111110010
+   </strong>
+</p>
+
+<p align="center">
+  <strong>
+    10(A)00(B)110(C)010(D)00(B)011(E)111(F)00(B)10(A)</br>              
+   </strong>
+</p>
+
+```python
+  class lookup_decoding:
+
+    def __init__(self, cf, ht):
+        self.cf = cf
+        self.ht = ht
+
+    def decode(self):
+        o_file = []
+        c_size = len(self.cf)        
+        buffer = []
+
+        for i in range(0, c_size):            
+            buffer.append(self.cf[i])
+            possible_code = ''.join(buffer)
+            if possible_code in self.ht.keys():
+                o_file.append(self.ht[possible_code])
+                buffer.clear()                
+                
+        return o_file
+```
 
 ### Decoding based on Huffman Tree Reconstruction
 ### Decoding with Markov Chains
