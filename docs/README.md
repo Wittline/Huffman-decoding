@@ -329,6 +329,14 @@ Based on the proposed methodology, we will use the following datasets to be able
 
 ## Visualization of the symbols distribution
 
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/distributions1.png" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/distributions2.png" />
+</p>
+
 
 
 # Code
