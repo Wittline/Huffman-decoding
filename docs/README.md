@@ -412,11 +412,21 @@ Summary tables of generated code lengths for the SARS-CoV-2.fasta e Información
 Summary tables of generated code lengths for the tweets_en.json and tweets_es.json data sets from left to right
 </p>
 
+<p align="justify">
+It can be seen in the previous tables that the code lengths are sorted in ascending order, this in order to improve the decoding process using chunks of the compressed chain of the shortest possible length and speed up response times due to the fact that the symbols encoded with a shorter code length are more likely to occur.
+</p>
+
+## Visualization of the code lengths distribution by symbols
+<p align="justify">
+Below, the distribution of the code lengths per symbol for each dataset is shown, there are common features that are independent of the probability distribution of the symbols, we can see that for datasets that have information in natural language, most of the information is concentrated in symbols or bytes of length 3, another relevant feature that is common in uniform and non-uniform distributions is the presence of Benford's law, there are more symbols that begin with the number 1, the objective of this phase is to visualize that Symbol groups contain more information and what length of code is associated with them.
+</p>
+
+
+
+
 
 # Code
 You can see the code of the whole project here: <a href="https://github.com/Wittline/Huffman-decoding/tree/master/Code" target="_blank">Code</a>
-
-
 
 # References
 Based on the above, below we mention some studies performed based on the decompression of huffman codes:
