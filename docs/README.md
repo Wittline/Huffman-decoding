@@ -350,6 +350,13 @@ The Graphs with the distribution of symbols of each file are shown below. In mos
 </p>
 
 
+## Contextual transformations
+
+<p align="justify">
+In this phase, what is intended is to transform the symbols of the data sets to a new set of symbols with lower entropy, the decline of this gives us a signal of the gain in storage and possibly a lower compression rate, consequently a process faster decompression, as already mentioned above we will first use the BWT algorithm and its output will be the input of the MTF algorithm, the final output of the last one mentioned will be used to measure the entropy in each file and in this way demonstrate the benefit of a transformation contextual, the table shows the new entropies for each data set, it can be observed that the entropy value slightly decreases and the gain value rises, there is an additional column called "BWT (Window Size)" this column indicates the size of the piece in bytes that the BWT algorithm handled, the Graph shows the new gain in orange and in almost all cases using BWT favors compression,  At the last graph we can now select the files that BWT and MTF will use and those that will not.
+</p>
+
+
 
 
 # Code
