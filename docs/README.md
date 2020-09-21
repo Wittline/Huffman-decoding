@@ -421,8 +421,40 @@ It can be seen in the previous tables that the code lengths are sorted in ascend
 Below, the distribution of the code lengths per symbol for each dataset is shown, there are common features that are independent of the probability distribution of the symbols, we can see that for datasets that have information in natural language, most of the information is concentrated in symbols or bytes of length 3, another relevant feature that is common in uniform and non-uniform distributions is the presence of Benford's law, there are more symbols that begin with the number 1, the objective of this phase is to visualize that Symbol groups contain more information and what length of code is associated with them.
 </p>
 
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/gl_booken_book_es.png" />
+</p>
+<p align="center">
+Distribution of code lengths by symbols for the book1-en.txt and book2-en.txt datasets
+</p>
 
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/gl_tweeten_tweetes.png" />
+</p>
+<p align="center">
+Distribution of code lengths by symbols for the tweets_en.json and tweets_es.json datasets
+</p>
 
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/gl_x_y.png" />
+</p>
+<p align="center">
+Distribution of code lengths by symbols for the Homo sapiens chromosome X.fasta and Homo sapiens chromosome Y.fasta datasets
+</p>
+
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/gl_sars_holo.png" />
+</p>
+<p align="center">
+Distribution of code lengths by symbols for the SARS-CoV-2.fasta and Información en el universo holográfico.txt datasets
+</p>
+
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/gl_corto_short.png" />
+</p>
+<p align="center">
+Distribution of code lengths by symbols for the texto-corto.txt and short-text.txt datasets
+</p>
 
 
 # Code
