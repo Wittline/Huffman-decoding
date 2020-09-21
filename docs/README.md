@@ -131,6 +131,12 @@ The Huffman code decoding process seems to be somewhat trivial, but it is not, u
 This technique is based on the use of a Lookup-Table to find the pattern that matches some code in the Huffman table, the technique manages to decode the pattern of compressed bits, but it is slow, and the number of attempts for each symbol is expressed by the first equation, where F means attempts per symbol or number of failures, which means that the algorithm fails to decode each symbol L - 1 times, where L represents the length of the code for the symbol, the global number of failures for decoding all the symbols in the original data set is expressed by the second equation, where Fr is the frequency of each different symbol
 </p>
 
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/1d.PNG" />
+</p>
+
+
+
 <p align="justify">
 For the previous data set, decoding the 24 symbols of the compressed bitstream pattern has a cost of 35 attempts, although the symbols involved in the second equation are the different symbols that appear in the Huffman table, in this case they are 6 different symbols, the objective of measuring the failure is to find a relationship that leads us to reduce it to try to improve the overall response time of the algorithm.
 </p>
