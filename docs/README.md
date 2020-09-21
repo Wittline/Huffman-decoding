@@ -213,23 +213,25 @@ The central idea of this approach is to make cuts on the compressed bit string o
 </p>
 
 ```python
-  class lookup_decoding:
+class length_code_decoding:
 
-    def __init__(self, cf, ht):
+    def __init__(self, cf, ht, lc):
         self.cf = cf
         self.ht = ht
+        self.lc = lc
 
     def decode(self):
         o_file = []
-        c_size = len(self.cf)        
-        buffer = []
+        c_size = len(self.cf)     
 
-        for i in range(0, c_size):            
-            buffer.append(self.cf[i])
-            possible_code = ''.join(buffer)
-            if possible_code in self.ht.keys():
-                o_file.append(self.ht[possible_code])
-                buffer.clear()                
+        index = 0
+        while index < c_size:
+            for sz in self.lc:
+                possible_code = self.cf[index: index + sz]
+                if possible_code in self.ht.keys():
+                    o_file.append(int(self.ht[possible_code])) 
+                    index = index + sz
+                    break
                 
         return o_file
 ```
