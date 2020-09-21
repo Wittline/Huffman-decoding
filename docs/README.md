@@ -212,6 +212,12 @@ The central idea of this approach is to make cuts on the compressed bit string o
    </strong>
 </p>
 
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/cut_length-png.PNG" />
+</p>
+
+
+
 ```python
 class length_code_decoding:
 
