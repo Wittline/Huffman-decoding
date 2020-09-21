@@ -153,7 +153,7 @@ For the previous data set, decoding the 24 symbols of the compressed bitstream p
 
 <p align="center">
   <strong>
-    10_00_110_010_00_011_111_00_10
+    10_00_110_010_00_011_111_00_10</br>
       A  B   C   D  B   E   F  B  A
    </strong>
 </p>
