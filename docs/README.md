@@ -247,6 +247,73 @@ This decompression technique is not recommended, because the tree traversal is b
 The different lengths of the generated codes can be seen as a sequence of events that follow a stochastic process, there are always different lengths of codes, which can represent the states, each length is associated with a probability, and there is memory loss, the reading a future code length only depends on the previous reading. Due to these very clear properties, decompression based on a Markov chain does not sound out of place, and it is a lossless decompression approach, however, using a Markov chain demands storage to store the transitions matrix  and this puts the compression rate achieved at risk.
 </p>
 
+```python
+
+class MarkovChain(object):
+
+    def __init__(self, transition_matrix, states):
+        self.transition_matrix = np.atleast_2d(transition_matrix)
+        self.states = states
+        self.index_dict = {self.states[index]: index for index in 
+                           range(len(self.states))}
+                           
+        self.state_dict = {index: self.states[index] for index in
+                           range(len(self.states))}
+
+    def fix_p(self, p):
+        if p.sum() != 1.0:
+            p = p*(1./p.sum())
+        return p                           
+ 
+    def next_state(self, current_state):
+        return np.random.choice(
+         self.states, 
+         p=self.fix_p(self.transition_matrix[self.index_dict[current_state], :])
+        )
+
+ 
+    def generate_states(self, current_state, no=10):       
+        future_states = []
+        for i in range(no):
+            next_state = self.next_state(current_state)
+            future_states.append(next_state)
+            current_state = next_state
+        return future_states  
+  
+class MKC_decoding:
+
+    def __init__(self, cf, ht, lc, mtx):
+        self.cf = cf
+        self.ht = ht
+        self.lc = lc
+        self.mtx = mtx
+
+    def decode(self):
+        o_file = []
+        f_list = []
+        s_list = []
+        c_size = len(self.cf)
+
+        predict_length = MarkovChain(transition_matrix=self.mtx , states=self.lc)
+
+        next_state_length = 0
+        for sz in self.lc:
+            possible_code = self.cf[0: sz]
+            if possible_code in self.ht.keys():
+                o_file.append(self.ht[possible_code])
+                next_state_length= sz                
+                break
+
+        index = next_state_length
+        while index < c_size:
+                next_state_length = predict_length.next_state(current_state=next_state_length)
+                possible_code = self.cf[index: index + next_state_length]
+                if possible_code in self.ht.keys():
+                        o_file.append(self.ht[possible_code])
+                        index += next_state_length               
+        
+        return o_file
+```
 
 
 # Code
