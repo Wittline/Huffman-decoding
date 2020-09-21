@@ -457,7 +457,141 @@ Distribution of code lengths by symbols for the texto-corto.txt and short-text.t
 </p>
 
 ## Huffman Decoding and visualization
+<p align="justify">
 Due to the observations in the previous section, it is notable that there are lengths of codes that are not the shortest that contain more compressed information, it is for this reason that a new approach is proposed to order the huffman table based on the amount of compressed information descending and not ascending by code lengths, the final results are discussed later. The decompression behavior will only be shown for some relevant datasets where the improvement is meaningful.
+</p>
+<strong>book1-en.txt</strong>
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/res_boonen1.png" />
+</p>
+<p align="center">
+Failure behavior during decoding using a lookup table
+</p>
+
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/res_boonen2.png" />
+</p>
+<p align="center">
+Failure behavior during decoding without sorted
+</p>
+
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/res_boonen3.png" />
+</p>
+<p align="center">
+Failure behavior during decoding sorted by lenght codes
+</p>
+
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/res_boonen4.png" />
+</p>
+<p align="center">
+Failure behavior during decoding sorted by compressed bytes
+</p>
+
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/res_boonen5.png" />
+</p>
+<p align="center">
+Failure distribution and probability density
+</p>
+
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/res_boonen6.png" />
+</p>
+<p align="center">
+Failure distribution and probability density
+</p>
+
+
+<strong>Información en el universo holográfico.txt</strong>
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/res_holo1.png" />
+</p>
+<p align="center">
+Failure behavior during decoding using a lookup table
+</p>
+
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/res_holo2.png" />
+</p>
+<p align="center">
+Failure behavior during decoding without sorted
+</p>
+
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/res_holo3.png" />
+</p>
+<p align="center">
+Failure behavior during decoding sorted by lenght codes
+</p>
+
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/res_holo4.png" />
+</p>
+<p align="center">
+Failure behavior during decoding sorted by compressed bytes
+</p>
+
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/res_holo5.png" />
+</p>
+<p align="center">
+Failure distribution and probability density
+</p>
+
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/res_holo6.png" />
+</p>
+<p align="center">
+Failure distribution and probability density
+</p>
+
+
+<strong>short-text.txt</strong>
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/res_short1.png" />
+</p>
+<p align="center">
+Failure behavior during decoding using a lookup table
+</p>
+
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/res_short2.png" />
+</p>
+<p align="center">
+Failure behavior during decoding without sorted
+</p>
+
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/res_short3.png" />
+</p>
+<p align="center">
+Failure behavior during decoding sorted by lenght codes
+</p>
+
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/res_short4.png" />
+</p>
+<p align="center">
+Failure behavior during decoding sorted by compressed bytes
+</p>
+
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/res_short5.png" />
+</p>
+<p align="center">
+Failure distribution and probability density
+</p>
+
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/res_short6.png" />
+</p>
+<p align="center">
+Failure distribution and probability density
+</p>
+
+
 
 
 
