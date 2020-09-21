@@ -365,6 +365,10 @@ In this phase, what is intended is to transform the symbols of the data sets to 
 </p>
 
 
+<p align="justify">
+The files that will use the BWT and MTF in the compression pipeline are book1-en, book2-es, tweets_en, tweets_es, Homo sapiens chromosome Y and Information in the holographic universe, because they are the ones that present a significant gain.
+</p>
+
 # Code
 You can see the code of the whole project here: <a href="https://github.com/Wittline/Huffman-decoding/tree/master/Code" target="_blank">Code</a>
 
