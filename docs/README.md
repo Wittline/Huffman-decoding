@@ -329,6 +329,10 @@ Based on the proposed methodology, we will use the following datasets to be able
 
 ## Visualization of the symbols distribution
 
+<p align="justify">
+The Graphs with the distribution of symbols of each file are shown below. In most cases and because the content of some files is in natural language, Benford's law can be observed, there is a large amount of information accumulated in bytes that begin with the number 1, it can also be observed that there is a large amount of information accumulated in three-digit bytes, for .fasta files it can be observed the presence of a very short alphabet and special symbols that are related to the structure file standard, the last table in this section shows a numerical summary of the entropy analysis of each file, the necessary bytes and gain columns are related to the following formulas consecutively
+</p>
+
 <p align="center">
   <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/distributions1.png" />
 </p>
