@@ -315,11 +315,21 @@ class MKC_decoding:
         return o_file
 ```
 
+# Results
+
+<p align="justify">
+Based on the proposed methodology, we will use the following datasets to be able to see the behavior in compression and then in decompression of each dataset.
+</p>
+
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/datasets.png" />
+</p>
+
 
 # Code
 You can see the code of the whole project here: <a href="https://github.com/Wittline/Huffman-decoding/tree/master/Code" target="_blank">Code</a>
 
-# Results
+
 
 # References
 Based on the above, below we mention some studies performed based on the decompression of huffman codes:
