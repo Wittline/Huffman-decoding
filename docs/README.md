@@ -72,8 +72,8 @@ On the other hand, it is relevant to mention that Hadoop is one of the most famo
 One of the algorithms most used by different current data compression tools and which is part of the final stage of the entire compression pipeline is the Huffman algorithm, due to its nature of optimizing the construction of variable length codes, or In other words, the average length of the generated codes is very close to the minimum expected according to entropy formula, this algorithm was created by David Huffman in 1952 and since its creation to the present it has been a topic of relevant and very important research in the area of data compression, the algorithm achieves its best performance when the probabilities of the symbols are negative powers of 2, the steps taken by the algorithm to generate variable length codes are described below , we will use the next dataset.
 </p>
 
-<p align="center">
-**ABCDBEFBAABCDBEABCDBEFBA**
+<p align="center" style="width:bold;">
+ABCDBEFBAABCDBEABCDBEFBA
 </p>
 
 # Code
