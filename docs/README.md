@@ -63,8 +63,9 @@ On the other hand, it is relevant to mention that Hadoop is one of the most famo
 </p>
 
 <p align="center">
-  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/codecs.png" />
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/hadoop_codecs.png" />
 </p>
+
 
 
 # Code
