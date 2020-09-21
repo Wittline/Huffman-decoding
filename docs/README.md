@@ -182,6 +182,9 @@ For the previous data set, decoding the 24 symbols of the compressed bitstream p
 
 
 ### Decoding based on Code Length
+
+The central idea of ​​this approach is to make cuts on the compressed bit string of size m, where m is an element that belongs to the set Lm, and Lm is the set of all the lengths found, for the previous case the set Lm is { 2, 3}, and its cardinality is 2, we will call the cardinality \ left | \ mathbf {Lm} \ \ right |, therefore, in the worst case, decoding each symbol involves trying \ left | \ mathbf {Lm} \ \ right | \ - \ \ mathbf {1} times, in order to achieve the best performance of this technique, the code lengths must be ordered from smallest to largest, because shorter length codes have more probability of occurrence, ascending order will definitely reduce the number of attempts and response time in decompression.
+
 ### Decoding based on Huffman Tree Reconstruction
 ### Decoding with Markov Chains
 
