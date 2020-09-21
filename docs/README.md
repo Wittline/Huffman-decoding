@@ -334,12 +334,21 @@ The Graphs with the distribution of symbols of each file are shown below. In mos
 </p>
 
 <p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/2d.png" />
+</p>
+
+<p align="center">
   <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/distributions1.png" />
 </p>
 
 <p align="center">
   <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/distributions2.png" />
 </p>
+
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/tgain.png" />
+</p>
+
 
 
 
