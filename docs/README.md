@@ -317,6 +317,8 @@ class MKC_decoding:
 
 # Results
 
+## Choosed datasets
+
 <p align="justify">
 Based on the proposed methodology, we will use the following datasets to be able to see the behavior in compression and then in decompression of each dataset.
 </p>
@@ -324,6 +326,9 @@ Based on the proposed methodology, we will use the following datasets to be able
 <p align="center">
   <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/datasets.png" />
 </p>
+
+## Visualization of the symbols distribution
+
 
 
 # Code
