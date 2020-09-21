@@ -125,10 +125,10 @@ Taking into account that there are 6 different symbols contained in the original
 The Huffman code decoding process seems to be somewhat trivial, but it is not, until today studies with different points of view and approaches continue to be thrown to try to improve response times in the decoding process, due to that the decompression time of the data directly impacts the user experience and the compression time will always be transparent for the user, the importance is very clear. The classical sequential decoding techniques are also used internally in the techniques based on parallelism or techniques that make better use of hardware resources, therefore, an advance in sequential decoding also involves an advance in the parallel decoding of Huffman codes, below , the basic sequential decompression techniques that are commonly used in the modern data compression and decompression pipeline will be explained
 </p>
 
-### Standard decoding of variable length codes
-### Decoding based on code length
-### Decoding based on Huffman tree reconstruction
-### Decoding with Markov chains
+### Standard Decoding of Variable Length Codes
+### Decoding based on Code Length
+### Decoding based on Huffman Tree Reconstruction
+### Decoding with Markov Chains
 
 
 
