@@ -43,6 +43,13 @@ Modern compression tools and techniques are not based solely on the use of a com
 
 ![alt text](https://wittline.github.io/Huffman-decoding/images/ct.png)
 
+It should be noted that the Huffman algorithm is widely used in many known compression tools or codecs, the image below shows the compression pipelines of some of these tools and we can see that the huffman coding is very common in much of them
+
+![alt text](https://wittline.github.io/Huffman-decoding/images/codecs.png)
+
+
+
+
 ## Code
 You can see the code of the whole project here: <a href="https://github.com/Wittline/Huffman-decoding/tree/master/Code" target="_blank">Code</a>
 
