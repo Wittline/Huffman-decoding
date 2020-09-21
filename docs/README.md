@@ -615,14 +615,19 @@ In almost all cases it can be seen that sorting the huffman table by the code le
 </p>
 
 
-
-
-
 # Code
 You can see the code of the whole project here: <a href="https://github.com/Wittline/Huffman-decoding/tree/master/Code" target="_blank">Code</a>
 
+# Contributing and Feedback
+Any ideas or feedback about this repository?. Help me to improve it.
+
+# Authors
+- Created by <a href="https://www.linkedin.com/in/ramsescoraspe"><strong>Ramses Alexander Coraspe Valdez</strong></a>
+- Created on 2020
+
 # References
-Based on the above, below we mention some studies performed based on the decompression of huffman codes:
+Below we mention some studies performed based on the decompression of huffman codes:
+
 1. [Balancing decoding speed and memory usage for Huffman codes using quaternary tree (Habib y Rahman, 2017)](https://applied-informatics-j.springeropen.com/articles/10.1186/s40535-016-0032-z)	 
 2. [Data-Parallel Finite-State Machines (Mytkowicz, Musuvathi y Schulte, 2014)](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/asplos302-mytkowicz.pdf)	
 3. [Massively Parallel Huffman Decoding on GPUs (Weißenberger y Schmidt, 2018)](https://dl.acm.org/citation.cfm?id=3225076)
