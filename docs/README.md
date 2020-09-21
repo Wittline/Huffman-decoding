@@ -73,9 +73,9 @@ One of the algorithms most used by different current data compression tools and 
 </p>
 
 <p align="center">
-  <div style="font-weight: 600;">
+  <strong>
 ABCDBEFBAABCDBEABCDBEFBA
-    </div>
+    </strong>
 </p>
 
 # Code
