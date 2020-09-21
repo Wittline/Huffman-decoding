@@ -58,6 +58,15 @@ It should be noted that the Huffman algorithm is widely used in many known compr
   <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/codecs.png" />
 </p>
 
+<p align="justify">
+On the other hand, it is relevant to mention that Hadoop is one of the most famous tools to control and manage large amounts of data and is composed of the most robust codecs for data compression, The blocks in bzip2 can be independently decompressed, bzip2 files can be decompressed in parallel, making it a good format for use in big data solutions with distribuited computing frameworks like Hadoop, Apache Spark, and Hive
+</p>
+
+<p align="center">
+  <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/codecs.png" />
+</p>
+
+
 # Code
 You can see the code of the whole project here: <a href="https://github.com/Wittline/Huffman-decoding/tree/master/Code" target="_blank">Code</a>
 
@@ -68,3 +77,4 @@ Based on the above, below we mention some studies performed based on the decompr
 1. [Balancing decoding speed and memory usage for Huffman codes using quaternary tree (Habib y Rahman, 2017)](https://applied-informatics-j.springeropen.com/articles/10.1186/s40535-016-0032-z)	 
 2. [Data-Parallel Finite-State Machines (Mytkowicz, Musuvathi y Schulte, 2014)](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/asplos302-mytkowicz.pdf)	
 3. [Massively Parallel Huffman Decoding on GPUs (Weißenberger y Schmidt, 2018)](https://dl.acm.org/citation.cfm?id=3225076)
+4. [P-Codec: Parallel Compressed File Decompression Algorithm for Hadoop (Hanafi, I., & Abdel-raouf, A. (2016))](https://www.semanticscholar.org/paper/P-Codec%3A-Parallel-Compressed-File-Decompression-for-Hanafi-Abdel-raouf/ac3b1d2fe08d9222907a6d17e80aa2a1dd4d3604)
