@@ -10,7 +10,9 @@ The exponential growth of the volume of data, the high cost of storage and high 
 Companies in all sectors need to find new ways to control the rapid growth of the volume of their heterogeneous data generated every day, for this reason mentioning Velocity, Volume and Variety (Laney, 2001) are key concepts to strengthen this document.
 </p>
 
-![alt text](https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/3vs.png)
+<p align="center">
+  ![alt text](https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/3vs.png)
+</p>
 
 ### Velocity
 <p align="justify"> 
