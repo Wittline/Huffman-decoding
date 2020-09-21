@@ -157,6 +157,28 @@ For the previous data set, decoding the 24 symbols of the compressed bitstream p
    </strong>
 </p>
 
+```python
+  class lookup_decoding:
+
+    def __init__(self, cf, ht):
+        self.cf = cf
+        self.ht = ht
+
+    def decode(self):
+        o_file = []
+        c_size = len(self.cf)        
+        buffer = []
+
+        for i in range(0, c_size):            
+            buffer.append(self.cf[i])
+            possible_code = ''.join(buffer)
+            if possible_code in self.ht.keys():
+                o_file.append(self.ht[possible_code])
+                buffer.clear()                
+                
+        return o_file
+```
+
 
 
 ### Decoding based on Code Length
