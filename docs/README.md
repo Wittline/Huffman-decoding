@@ -135,11 +135,23 @@ This technique is based on the use of a Lookup-Table to find the pattern that ma
   <img src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/1d.PNG" />
 </p>
 
-
-
 <p align="justify">
 For the previous data set, decoding the 24 symbols of the compressed bitstream pattern has a cost of 35 attempts, although the symbols involved in the second equation are the different symbols that appear in the Huffman table, in this case they are 6 different symbols, the objective of measuring the failure is to find a relationship that leads us to reduce it to try to improve the overall response time of the algorithm.
 </p>
+
+<p align="center">
+  <strong>
+    ABCDBEFBA.....
+   </strong>
+</p>
+
+<p align="center">
+  <strong>
+    1000110010000111110010
+   </strong>
+</p>
+
+
 
 ### Decoding based on Code Length
 ### Decoding based on Huffman Tree Reconstruction
