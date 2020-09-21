@@ -41,6 +41,8 @@ As this research is based on the study of the decoding of static Huffman codes a
 Modern compression tools and techniques are not based solely on the use of a compression algorithm, actually the use of this is part of the final stage of an entire compression pipeline, but before reaching the last one, there is a stage called contextual transformations that are responsible for reorganizing the symbols of the data set so that they are more sensitive to statistical compression methods such as Huffman, in other words they are artificial generators of redundancy, two of the main algorithms that will be explained in this research are the BWT and the MTF.
 </p>
 
+![alt text](https://wittline.github.io/Huffman-decoding/images/ct.png)
+
 ## Code
 You can see the code of the whole project here: <a href="https://github.com/Wittline/Huffman-decoding/tree/master/Code" target="_blank">Code</a>
 
