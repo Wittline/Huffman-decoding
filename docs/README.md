@@ -622,7 +622,7 @@ In almost all cases it can be seen that sorting the huffman table by the code le
 
 
 # Code
-You can see the code of the whole project here: <a href="https://github.com/Wittline/Huffman-decoding/tree/master/Code" target="_blank">Code</a>
+You can see the code of the whole project here: <a href="https://github.com/Wittline/Huffman-decoding/tree/master/Code/Huffman_decoding_exp.html" target="_blank">Code</a>
 
 # Contributing and Feedback
 Any ideas or feedback about this repository?. Help me to improve it.
