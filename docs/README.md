@@ -11,7 +11,7 @@ Companies in all sectors need to find new ways to control the rapid growth of th
 </p>
 
 <p align="center">
-  <img width="90%" src="https://github.com/Wittline/Huffman-decoding/blob/master/docs/images/3vs.png" />
+  <img width="90%" src="https://wittline.github.io/Huffman-decoding/images/3vs.png/>
 </p>
 
 ## Velocity
