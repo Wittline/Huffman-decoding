@@ -1,1 +1,4 @@
 theme: jekyll-theme-cayman
+title: "Contextual Data Transforms"
+description: "Burrows Wheeler transform, Move To Front, Run Length Encoding, Delta Encoding, Xor Delta Encoding."
+author: "Ramses Alexander Coraspe Valdez"
