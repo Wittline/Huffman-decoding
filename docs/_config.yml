@@ -1,4 +1,4 @@
 theme: jekyll-theme-cayman
-title: "Contextual Data Transforms"
-description: "Burrows Wheeler transform, Move To Front, Run Length Encoding, Delta Encoding, Xor Delta Encoding."
+title: "Huffman Decoding"
+description: "A New Approach for Efficient Sequential Decoding of Static Huffman Codes"
 author: "Ramses Alexander Coraspe Valdez"
